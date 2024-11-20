@@ -34,8 +34,12 @@ Este projeto tem como objetivo realizar a análise de dados financeiros a partir
 
     ```bash
     python criar_excel.py
+    
+5. CAso queira aplicar filtro   
+    ```bash
+    python criar_excel_filtro.py
 
-5. O script irá carregar os dados de uma planilha Excel, aplicar o filtro desejado, calcular o total e a média, gerar um relatório no console e um gráfico de barras com os dados filtrados.
+6. O script irá carregar os dados de uma planilha Excel, aplicar o filtro desejado, calcular o total e a média, gerar um relatório no console e um gráfico de barras com os dados filtrados.
 
 ## Possíveis Melhorias Futuras
 - Adicionar mais opções de filtragem, como por data ou categoria.
@@ -51,3 +55,8 @@ Se você quiser contribuir para o projeto, siga as etapas:
 - Commit suas alterações (git commit -am 'Adiciona nova funcionalidade').
 - Faça o push para a branch (git push origin feature/nova-funcionalidade).
 - Abra um pull request.
+
+## Resultado esperado
+![script_sem_filtro](https://github.com/user-attachments/assets/f0b2ed40-e883-48aa-98e8-46a6032296f5)
+
+![script_com_filtro](https://github.com/user-attachments/assets/411c90ec-e08c-44cd-9308-9fee75da452e)
